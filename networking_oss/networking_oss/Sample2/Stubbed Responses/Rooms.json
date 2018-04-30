@@ -1,0 +1,32 @@
+[
+  {
+    "room_id" : 11111111,
+    "sticky" : true,
+    "task_num" : 0,
+    "type" : "my",
+    "file_num" : 1,
+    "unread_num" : 0,
+    "message_num" : 2,
+    "mytask_num" : 0,
+    "icon_path" : "https:\/\/appdata.chatwork.com\/avatar\/ico_default_blue.png",
+    "role" : "member",
+    "mention_num" : 0,
+    "name" : "マイチャット",
+    "last_update_time" : 1472566159
+  },
+  {
+    "room_id" : 11111111,
+    "sticky" : false,
+    "task_num" : 0,
+    "type" : "group",
+    "file_num" : 1,
+    "unread_num" : 249,
+    "message_num" : 266,
+    "mytask_num" : 0,
+    "icon_path" : "https:\/\/appdata.chatwork.com\/icon\/577\/577219.rsz.png",
+    "role" : "member",
+    "mention_num" : 0,
+    "name" : "情報共有",
+    "last_update_time" : 1493439120
+  }
+]

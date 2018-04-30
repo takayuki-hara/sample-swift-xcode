@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'networking_oss' do
+    pod 'Alamofire', '~> 4.4'
+    pod 'Moya', '~> 8.0.0'
+    pod 'ObjectMapper', '~> 2.2.6'
+    pod 'SwiftyJSON', '~> 3.1.0'
+    # pod 'Alamofire-SwiftyJSON'
+
+end

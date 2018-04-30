@@ -1,0 +1,9 @@
+disabled_rules: # rule identifiers to exclude from running
+  - line_length
+  - type_name
+opt_in_rules: # some rules are only opt-in
+
+included: # paths to include during linting. `--path` is ignored if present.
+  - networking_oss
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - networking_oss/Swagger
