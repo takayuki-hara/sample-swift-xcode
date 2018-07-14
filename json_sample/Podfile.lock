@@ -1,0 +1,20 @@
+PODS:
+  - Unbox (3.0.0)
+  - Wrap (3.0.0)
+
+DEPENDENCIES:
+  - Unbox
+  - Wrap
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Unbox
+    - Wrap
+
+SPEC CHECKSUMS:
+  Unbox: 9ed33b2a31f7a8a049f54b94d40c4a52a28c4d9d
+  Wrap: 918fdb5157e4f701f9503b2633752d6f94616f84
+
+PODFILE CHECKSUM: 6c8b508289aa3c4a91e3d621604b08d047cd2932
+
+COCOAPODS: 1.5.3
