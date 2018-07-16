@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E68A2A26589A120E5474FBD /* Pods_rncryptor_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD216BE267868BE1E205BC21 /* Pods_rncryptor_sample.framework */; };
+		4657BADF20FC8537000A1502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BADE20FC8537000A1502 /* AppDelegate.swift */; };
+		4657BAE120FC8537000A1502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BAE020FC8537000A1502 /* ViewController.swift */; };
+		4657BAE420FC8537000A1502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4657BAE220FC8537000A1502 /* Main.storyboard */; };
+		4657BAE620FC8539000A1502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4657BAE520FC8539000A1502 /* Assets.xcassets */; };
+		4657BAE920FC8539000A1502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4657BAE720FC8539000A1502 /* LaunchScreen.storyboard */; };
+		4657BAF420FC8539000A1502 /* rncryptor_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657BAF320FC8539000A1502 /* rncryptor_sampleTests.swift */; };
+		8764C19642061B6F48E645FC /* Pods_rncryptor_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1E023A3F585A167D3F5847 /* Pods_rncryptor_sampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4657BAF020FC8539000A1502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4657BAD320FC8537000A1502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4657BADA20FC8537000A1502;
+			remoteInfo = "rncryptor-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4657BADB20FC8537000A1502 /* rncryptor-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rncryptor-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4657BADE20FC8537000A1502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4657BAE020FC8537000A1502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4657BAE320FC8537000A1502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4657BAE520FC8539000A1502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4657BAE820FC8539000A1502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4657BAEA20FC8539000A1502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4657BAEF20FC8539000A1502 /* rncryptor-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rncryptor-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4657BAF320FC8539000A1502 /* rncryptor_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rncryptor_sampleTests.swift; sourceTree = "<group>"; };
+		4657BAF520FC8539000A1502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48827A04AEC4CBEDA7881B57 /* Pods-rncryptor-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rncryptor-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-rncryptor-sample/Pods-rncryptor-sample.release.xcconfig"; sourceTree = "<group>"; };
+		67BCD626239925769BD5BF7E /* Pods-rncryptor-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rncryptor-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rncryptor-sample/Pods-rncryptor-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1E023A3F585A167D3F5847 /* Pods_rncryptor_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rncryptor_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD216BE267868BE1E205BC21 /* Pods_rncryptor_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rncryptor_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6BB987D54EC339420D74B2 /* Pods-rncryptor-sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rncryptor-sampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rncryptor-sampleTests/Pods-rncryptor-sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7DAC29F3F2D7115954C913 /* Pods-rncryptor-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rncryptor-sampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rncryptor-sampleTests/Pods-rncryptor-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4657BAD820FC8537000A1502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E68A2A26589A120E5474FBD /* Pods_rncryptor_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4657BAEC20FC8539000A1502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8764C19642061B6F48E645FC /* Pods_rncryptor_sampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4657BAD220FC8537000A1502 = {
+			isa = PBXGroup;
+			children = (
+				4657BADD20FC8537000A1502 /* rncryptor-sample */,
+				4657BAF220FC8539000A1502 /* rncryptor-sampleTests */,
+				4657BADC20FC8537000A1502 /* Products */,
+				6AEE314D55FD29E3E5B776F8 /* Pods */,
+				BC13B6768A63AE799D4B0F5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4657BADC20FC8537000A1502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4657BADB20FC8537000A1502 /* rncryptor-sample.app */,
+				4657BAEF20FC8539000A1502 /* rncryptor-sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4657BADD20FC8537000A1502 /* rncryptor-sample */ = {
+			isa = PBXGroup;
+			children = (
+				4657BADE20FC8537000A1502 /* AppDelegate.swift */,
+				4657BAE020FC8537000A1502 /* ViewController.swift */,
+				4657BAE220FC8537000A1502 /* Main.storyboard */,
+				4657BAE520FC8539000A1502 /* Assets.xcassets */,
+				4657BAE720FC8539000A1502 /* LaunchScreen.storyboard */,
+				4657BAEA20FC8539000A1502 /* Info.plist */,
+			);
+			path = "rncryptor-sample";
+			sourceTree = "<group>";
+		};
+		4657BAF220FC8539000A1502 /* rncryptor-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4657BAF320FC8539000A1502 /* rncryptor_sampleTests.swift */,
+				4657BAF520FC8539000A1502 /* Info.plist */,
+			);
+			path = "rncryptor-sampleTests";
+			sourceTree = "<group>";
+		};
+		6AEE314D55FD29E3E5B776F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67BCD626239925769BD5BF7E /* Pods-rncryptor-sample.debug.xcconfig */,
+				48827A04AEC4CBEDA7881B57 /* Pods-rncryptor-sample.release.xcconfig */,
+				CA6BB987D54EC339420D74B2 /* Pods-rncryptor-sampleTests.debug.xcconfig */,
+				DE7DAC29F3F2D7115954C913 /* Pods-rncryptor-sampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC13B6768A63AE799D4B0F5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD216BE267868BE1E205BC21 /* Pods_rncryptor_sample.framework */,
+				6C1E023A3F585A167D3F5847 /* Pods_rncryptor_sampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4657BADA20FC8537000A1502 /* rncryptor-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4657BAF820FC8539000A1502 /* Build configuration list for PBXNativeTarget "rncryptor-sample" */;
+			buildPhases = (
+				16EFF97A0455D6BB0C049533 /* [CP] Check Pods Manifest.lock */,
+				4657BAD720FC8537000A1502 /* Sources */,
+				4657BAD820FC8537000A1502 /* Frameworks */,
+				4657BAD920FC8537000A1502 /* Resources */,
+				819D8C9D934E3E26F71A5DC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rncryptor-sample";
+			productName = "rncryptor-sample";
+			productReference = 4657BADB20FC8537000A1502 /* rncryptor-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4657BAEE20FC8539000A1502 /* rncryptor-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4657BAFB20FC8539000A1502 /* Build configuration list for PBXNativeTarget "rncryptor-sampleTests" */;
+			buildPhases = (
+				5446A43355E19A2938276F93 /* [CP] Check Pods Manifest.lock */,
+				4657BAEB20FC8539000A1502 /* Sources */,
+				4657BAEC20FC8539000A1502 /* Frameworks */,
+				4657BAED20FC8539000A1502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4657BAF120FC8539000A1502 /* PBXTargetDependency */,
+			);
+			name = "rncryptor-sampleTests";
+			productName = "rncryptor-sampleTests";
+			productReference = 4657BAEF20FC8539000A1502 /* rncryptor-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4657BAD320FC8537000A1502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = takayuki.hara;
+				TargetAttributes = {
+					4657BADA20FC8537000A1502 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4657BAEE20FC8539000A1502 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4657BADA20FC8537000A1502;
+					};
+				};
+			};
+			buildConfigurationList = 4657BAD620FC8537000A1502 /* Build configuration list for PBXProject "rncryptor-sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4657BAD220FC8537000A1502;
+			productRefGroup = 4657BADC20FC8537000A1502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4657BADA20FC8537000A1502 /* rncryptor-sample */,
+				4657BAEE20FC8539000A1502 /* rncryptor-sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4657BAD920FC8537000A1502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4657BAE920FC8539000A1502 /* LaunchScreen.storyboard in Resources */,
+				4657BAE620FC8539000A1502 /* Assets.xcassets in Resources */,
+				4657BAE420FC8537000A1502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4657BAED20FC8539000A1502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16EFF97A0455D6BB0C049533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rncryptor-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5446A43355E19A2938276F93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rncryptor-sampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819D8C9D934E3E26F71A5DC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rncryptor-sample/Pods-rncryptor-sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RNCryptor/RNCryptor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCryptor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rncryptor-sample/Pods-rncryptor-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4657BAD720FC8537000A1502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4657BAE120FC8537000A1502 /* ViewController.swift in Sources */,
+				4657BADF20FC8537000A1502 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4657BAEB20FC8539000A1502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4657BAF420FC8539000A1502 /* rncryptor_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4657BAF120FC8539000A1502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4657BADA20FC8537000A1502 /* rncryptor-sample */;
+			targetProxy = 4657BAF020FC8539000A1502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4657BAE220FC8537000A1502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4657BAE320FC8537000A1502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4657BAE720FC8539000A1502 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4657BAE820FC8539000A1502 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4657BAF620FC8539000A1502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4657BAF720FC8539000A1502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4657BAF920FC8539000A1502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BCD626239925769BD5BF7E /* Pods-rncryptor-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rncryptor-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.takayuki.hara.rncryptor-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4657BAFA20FC8539000A1502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48827A04AEC4CBEDA7881B57 /* Pods-rncryptor-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rncryptor-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.takayuki.hara.rncryptor-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4657BAFC20FC8539000A1502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6BB987D54EC339420D74B2 /* Pods-rncryptor-sampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rncryptor-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.takayuki.hara.rncryptor-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rncryptor-sample.app/rncryptor-sample";
+			};
+			name = Debug;
+		};
+		4657BAFD20FC8539000A1502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7DAC29F3F2D7115954C913 /* Pods-rncryptor-sampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rncryptor-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ne.takayuki.hara.rncryptor-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rncryptor-sample.app/rncryptor-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4657BAD620FC8537000A1502 /* Build configuration list for PBXProject "rncryptor-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4657BAF620FC8539000A1502 /* Debug */,
+				4657BAF720FC8539000A1502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4657BAF820FC8539000A1502 /* Build configuration list for PBXNativeTarget "rncryptor-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4657BAF920FC8539000A1502 /* Debug */,
+				4657BAFA20FC8539000A1502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4657BAFB20FC8539000A1502 /* Build configuration list for PBXNativeTarget "rncryptor-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4657BAFC20FC8539000A1502 /* Debug */,
+				4657BAFD20FC8539000A1502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4657BAD320FC8537000A1502 /* Project object */;
+}
