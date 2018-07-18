@@ -1,0 +1,16 @@
+PODS:
+  - AsyncSwift (2.0.4)
+
+DEPENDENCIES:
+  - AsyncSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AsyncSwift
+
+SPEC CHECKSUMS:
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+
+PODFILE CHECKSUM: 6a5406aed7e89c6f91c7827c55ea1c6aa0558a36
+
+COCOAPODS: 1.5.3
