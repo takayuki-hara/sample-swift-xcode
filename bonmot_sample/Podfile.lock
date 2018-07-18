@@ -1,0 +1,16 @@
+PODS:
+  - BonMot (5.2)
+
+DEPENDENCIES:
+  - BonMot
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BonMot
+
+SPEC CHECKSUMS:
+  BonMot: 68da0bd7c2f602aca85511bedabd211eb0fae666
+
+PODFILE CHECKSUM: 41d304305bbe54d4b4f6a94e223376bd8318bbf4
+
+COCOAPODS: 1.5.3
